@@ -1,0 +1,22 @@
+{
+  "name": "react-redux-webpack-antd",
+  "version": "1.0.0",
+  "description": "private project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZoneTian/react-redux-webpack-antd.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Zone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZoneTian/react-redux-webpack-antd/issues"
+  },
+  "homepage": "https://github.com/ZoneTian/react-redux-webpack-antd#readme"
+}
