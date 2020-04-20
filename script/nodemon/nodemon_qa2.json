@@ -1,0 +1,15 @@
+
+{
+    "restartable": "rs", 
+    "ignore": [".git", "node_modules/", "bundle/", "public/"],
+    "verbose": true,
+    "exec": "npx ts-node server/server.ts",
+    "events": { 
+        "restart": ["npm run client:qa2"] 
+    },
+    "watch": ["*"], 
+    "env": {
+        "RUN_ENV": "qa2" 
+    },
+    "ext": "js,json,ts,tsx,pug,styl" 
+}

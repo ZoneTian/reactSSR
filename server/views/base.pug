@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible",content="IE=edge")
+        link(type="image/x-icon", rel="shortcut icon",href="")
+        meta(name="description", content="")
+        meta(name="keywords",content="")
+        title #{RUN_ENV}
+    body
+        div(id="root") !{HTML}
+        include common.pug
+        script.
+            window.__INITIAL_STATE__ = !{JSON.stringify(__INITIAL_STATE__)}
+        script.
+            window.__INITIAL_ENV__ = !{JSON.stringify(__INITIAL_ENV__)}
+        script(src=`${bundle}`)
