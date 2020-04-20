@@ -1,0 +1,14 @@
+node_modules/*
+logs/*
+log
+yarn-error.log
+dist/*
+dist/server.js
+bundle/*.bundle.js
+bundle/*.bundle.js.map
+.DS_Store
+bundle/application/*.bundle.js
+bundle/application/*.bundle.js.map
+bundle/application/*.bundle.js
+public/sms/bundle/*.bundle.js
+node_modules
